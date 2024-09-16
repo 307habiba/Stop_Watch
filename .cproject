@@ -1,115 +1,208 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
-	<storageModule moduleId="org.eclipse.cdt.core.settings">
-		<cconfiguration id="de.innot.avreclipse.configuration.app.debug.1027602805">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="de.innot.avreclipse.configuration.app.debug.1027602805" moduleId="org.eclipse.cdt.core.settings" name="Debug">
-				<externalSettings/>
-				<extensions>
-					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
-					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-				</extensions>
-			</storageModule>
-			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="de.innot.avreclipse.buildArtefactType.app" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=de.innot.avreclipse.buildArtefactType.app,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="de.innot.avreclipse.configuration.app.debug.1027602805" name="Debug" parent="de.innot.avreclipse.configuration.app.debug">
-					<folderInfo id="de.innot.avreclipse.configuration.app.debug.1027602805." name="/" resourcePath="">
-						<toolChain id="de.innot.avreclipse.toolchain.winavr.app.debug.60277847" name="AVR-GCC Toolchain" superClass="de.innot.avreclipse.toolchain.winavr.app.debug">
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.debug.456888888" name="Generate HEX file for Flash memory" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.debug"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.debug.2114226813" name="Generate HEX file for EEPROM" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.debug"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.debug.172305906" name="Generate Extended Listing (Source + generated Assembler)" superClass="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.debug"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.size.app.debug.1618480124" name="Print Size" superClass="de.innot.avreclipse.toolchain.options.toolchain.size.app.debug"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.debug.313861260" name="AVRDude" superClass="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.debug"/>
-							<targetPlatform id="de.innot.avreclipse.targetplatform.winavr.app.debug.1789451426" name="AVR Cross-Target" superClass="de.innot.avreclipse.targetplatform.winavr.app.debug"/>
-							<builder buildPath="${workspace_loc:/Stop_Watch}/Debug" id="de.innot.avreclipse.target.builder.winavr.app.debug.1234768235" managedBuildOn="true" name="AVR GNU Make Builder.Debug" superClass="de.innot.avreclipse.target.builder.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.assembler.winavr.app.debug.759338619" name="AVR Assembler" superClass="de.innot.avreclipse.tool.assembler.winavr.app.debug">
-								<option id="de.innot.avreclipse.assembler.option.debug.level.1205356395" superClass="de.innot.avreclipse.assembler.option.debug.level"/>
-							</tool>
-							<tool id="de.innot.avreclipse.tool.compiler.winavr.app.debug.1328295520" name="AVR Compiler" superClass="de.innot.avreclipse.tool.compiler.winavr.app.debug">
-								<option id="de.innot.avreclipse.compiler.option.debug.level.1254108754" superClass="de.innot.avreclipse.compiler.option.debug.level"/>
-								<option id="de.innot.avreclipse.compiler.option.optimize.1055886689" superClass="de.innot.avreclipse.compiler.option.optimize"/>
-							</tool>
-							<tool id="de.innot.avreclipse.tool.cppcompiler.app.debug.1188428826" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.debug">
-								<option id="de.innot.avreclipse.cppcompiler.option.debug.level.1145324810" superClass="de.innot.avreclipse.cppcompiler.option.debug.level"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.optimize.1883455775" superClass="de.innot.avreclipse.cppcompiler.option.optimize"/>
-							</tool>
-							<tool id="de.innot.avreclipse.tool.linker.winavr.app.debug.954285860" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.cpplinker.app.debug.1498063340" name="AVR C++ Linker" superClass="de.innot.avreclipse.tool.cpplinker.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.archiver.winavr.base.646336048" name="AVR Archiver" superClass="de.innot.avreclipse.tool.archiver.winavr.base"/>
-							<tool id="de.innot.avreclipse.tool.objdump.winavr.app.debug.1555500375" name="AVR Create Extended Listing" superClass="de.innot.avreclipse.tool.objdump.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.objcopy.flash.winavr.app.debug.604527499" name="AVR Create Flash image" superClass="de.innot.avreclipse.tool.objcopy.flash.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.debug.1153414043" name="AVR Create EEPROM image" superClass="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.size.winavr.app.debug.340432933" name="Print Size" superClass="de.innot.avreclipse.tool.size.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.avrdude.app.debug.574988891" name="AVRDude" superClass="de.innot.avreclipse.tool.avrdude.app.debug"/>
-						</toolChain>
-					</folderInfo>
-				</configuration>
-			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
-		</cconfiguration>
-		<cconfiguration id="de.innot.avreclipse.configuration.app.release.951132324">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="de.innot.avreclipse.configuration.app.release.951132324" moduleId="org.eclipse.cdt.core.settings" name="Release">
-				<externalSettings/>
-				<extensions>
-					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
-					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-				</extensions>
-			</storageModule>
-			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="de.innot.avreclipse.buildArtefactType.app" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=de.innot.avreclipse.buildArtefactType.app,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="de.innot.avreclipse.configuration.app.release.951132324" name="Release" parent="de.innot.avreclipse.configuration.app.release">
-					<folderInfo id="de.innot.avreclipse.configuration.app.release.951132324." name="/" resourcePath="">
-						<toolChain id="de.innot.avreclipse.toolchain.winavr.app.release.1202209287" name="AVR-GCC Toolchain" superClass="de.innot.avreclipse.toolchain.winavr.app.release">
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.release.453900958" name="Generate HEX file for Flash memory" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.release"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.release.1072085487" name="Generate HEX file for EEPROM" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.release"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.release.761468783" name="Generate Extended Listing (Source + generated Assembler)" superClass="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.release"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.size.app.release.1757029911" name="Print Size" superClass="de.innot.avreclipse.toolchain.options.toolchain.size.app.release"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.release.220956883" name="AVRDude" superClass="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.release"/>
-							<targetPlatform id="de.innot.avreclipse.targetplatform.winavr.app.release.1119637334" name="AVR Cross-Target" superClass="de.innot.avreclipse.targetplatform.winavr.app.release"/>
-							<builder buildPath="${workspace_loc:/Stop_Watch}/Release" id="de.innot.avreclipse.target.builder.winavr.app.release.53076894" managedBuildOn="true" name="AVR GNU Make Builder.Release" superClass="de.innot.avreclipse.target.builder.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.assembler.winavr.app.release.299228359" name="AVR Assembler" superClass="de.innot.avreclipse.tool.assembler.winavr.app.release">
-								<option id="de.innot.avreclipse.assembler.option.debug.level.1537960348" superClass="de.innot.avreclipse.assembler.option.debug.level" value="de.innot.avreclipse.assembler.option.debug.level.none" valueType="enumerated"/>
-								<inputType id="de.innot.avreclipse.tool.assembler.input.1127555647" superClass="de.innot.avreclipse.tool.assembler.input"/>
-							</tool>
-							<tool id="de.innot.avreclipse.tool.compiler.winavr.app.release.1742320845" name="AVR Compiler" superClass="de.innot.avreclipse.tool.compiler.winavr.app.release">
-								<option id="de.innot.avreclipse.compiler.option.debug.level.1368557524" superClass="de.innot.avreclipse.compiler.option.debug.level" value="de.innot.avreclipse.compiler.option.debug.level.none" valueType="enumerated"/>
-								<option id="de.innot.avreclipse.compiler.option.optimize.1294816604" superClass="de.innot.avreclipse.compiler.option.optimize" value="de.innot.avreclipse.compiler.optimize.size" valueType="enumerated"/>
-								<inputType id="de.innot.avreclipse.compiler.winavr.input.718976180" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
-							</tool>
-							<tool id="de.innot.avreclipse.tool.cppcompiler.app.release.1357812157" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.release">
-								<option id="de.innot.avreclipse.cppcompiler.option.debug.level.891350521" superClass="de.innot.avreclipse.cppcompiler.option.debug.level" value="de.innot.avreclipse.cppcompiler.option.debug.level.none" valueType="enumerated"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.optimize.1943732003" superClass="de.innot.avreclipse.cppcompiler.option.optimize" value="de.innot.avreclipse.cppcompiler.optimize.size" valueType="enumerated"/>
-							</tool>
-							<tool id="de.innot.avreclipse.tool.linker.winavr.app.release.239663005" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.release">
-								<inputType id="de.innot.avreclipse.tool.linker.input.17410548" name="OBJ Files" superClass="de.innot.avreclipse.tool.linker.input">
-									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
-									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
-								</inputType>
-							</tool>
-							<tool id="de.innot.avreclipse.tool.cpplinker.app.release.749450821" name="AVR C++ Linker" superClass="de.innot.avreclipse.tool.cpplinker.app.release"/>
-							<tool id="de.innot.avreclipse.tool.archiver.winavr.base.696308048" name="AVR Archiver" superClass="de.innot.avreclipse.tool.archiver.winavr.base"/>
-							<tool id="de.innot.avreclipse.tool.objdump.winavr.app.release.1311305532" name="AVR Create Extended Listing" superClass="de.innot.avreclipse.tool.objdump.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.objcopy.flash.winavr.app.release.273981292" name="AVR Create Flash image" superClass="de.innot.avreclipse.tool.objcopy.flash.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.release.1364184659" name="AVR Create EEPROM image" superClass="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.size.winavr.app.release.967672700" name="Print Size" superClass="de.innot.avreclipse.tool.size.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.avrdude.app.release.1929758034" name="AVRDude" superClass="de.innot.avreclipse.tool.avrdude.app.release"/>
-						</toolChain>
-					</folderInfo>
-				</configuration>
-			</storageModule>
-		</cconfiguration>
-	</storageModule>
-	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="Stop_Watch.de.innot.avreclipse.project.winavr.elf_2.1.0.47961759" name="AVR Cross Target Application" projectType="de.innot.avreclipse.project.winavr.elf_2.1.0"/>
-	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="de.innot.avreclipse.configuration.app.release.951132324;de.innot.avreclipse.configuration.app.release.951132324.;de.innot.avreclipse.tool.compiler.winavr.app.release.1742320845;de.innot.avreclipse.compiler.winavr.input.718976180">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="de.innot.avreclipse.core.AVRGCCManagedMakePerProjectProfileC"/>
-		</scannerConfigBuildInfo>
-	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-</cproject>
+#include <avr/io.h>
+#include <util/delay.h>
+#include <avr/interrupt.h>
+#define INC_HOURS (1 << PB1)
+#define DEC_HOURS (1 << PB0)
+#define INC_MINUTES (1 << PB4)
+#define DEC_MINUTES (1 << PB3)
+#define INC_SECONDS (1 << PB6)
+#define DEC_SECONDS (1 << PB5)
+
+unsigned char hours = 0, minutes = 0, seconds = 0;
+unsigned char paused = 0, count_down = 0;
+
+// Function Prototypes
+void interrupts();
+void timer1_ctc();
+void initillization_pins();
+void display_time(void);
+void display_digit(unsigned char digit, unsigned char number);
+
+// ISR for RESET
+ISR(INT0_vect) {
+    seconds = minutes = hours = 0;  // Reset time
+}
+
+// ISR for PAUSE
+ISR(INT1_vect) {
+    paused = 1;  // Pause the stopwatch
+}
+
+// ISR for RESUME
+ISR(INT2_vect) {
+    paused = 0;  // Resume the stopwatch
+}
+
+// ISR for TIMER1 Compare Match
+ISR(TIMER1_COMPA_vect) {
+    if (!paused) {
+        if (count_down) {
+            // Countdown Logic
+
+            if (seconds == 0) {
+                if (minutes == 0) {
+                    if (hours == 0) {
+                        PORTD |= (1 << PD0);  // Buzzer turns on
+                    } else {
+                        hours--;
+                        minutes = 59;
+                        seconds = 59;
+                    }
+                } else {
+                    minutes--;
+                    seconds = 59;
+                }
+            } else {
+                seconds--;
+                if(seconds == 0 && minutes == 0 && hours == 0)
+                {
+                    PORTD |= (1 << PD0);  // Buzzer turns on
+                }
+            }
+        } else {
+            // Increment Logic
+            seconds++;
+            if (seconds >= 60) {
+                seconds = 0;
+                minutes++;
+                if (minutes >= 60) {
+                    minutes = 0;
+                    hours++;
+                    if (hours >= 24) {
+                        hours = 0;  // Reset after 24 hours
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Main function
+int main() {
+    initillization_pins();
+    timer1_ctc();
+    interrupts();
+    sei();  // Enable global interrupts
+
+    while (1) {
+        display_time();
+        while (paused == 1) {
+            PORTD &= ~(1 << PD0);  // Turn off BUZZER
+            display_time();
+            if (!(PINB & (1 << PB7))) {  // Enter countdown mode if PB7 is pressed
+                count_down ^= 1;
+                PORTD ^= (1 << PD5);  // Set countdown mode LED
+                PORTD ^= (1 << PD4);  // Turn off normal mode LED
+                while (!(PINB & (1 << PB7))){ display_time(); }
+            }
+
+            display_time();  // Continuously update the display
+
+            // Hours increment
+            if (!(PINB & INC_HOURS)) {
+                hours = (hours + 1) % 24;
+                while (!(PINB & INC_HOURS)) { display_time(); }
+            }
+
+            // Hours decrement
+            if (!(PINB & DEC_HOURS)) {
+                hours = (hours == 0) ? 23 : hours - 1;
+                while (!(PINB & DEC_HOURS)) { display_time(); }
+            }
+
+            // Minutes increment
+            if (!(PINB & INC_MINUTES)) {
+                minutes = (minutes + 1) % 60;
+                while (!(PINB & INC_MINUTES)) { display_time(); }
+            }
+
+            // Minutes decrement
+            if (!(PINB & DEC_MINUTES)) {
+                minutes = (minutes == 0) ? 59 : minutes - 1;
+                while (!(PINB & DEC_MINUTES)) { display_time(); }
+            }
+
+            // Seconds increment
+            if (!(PINB & INC_SECONDS)) {
+                seconds = (seconds + 1) % 60;
+                while (!(PINB & INC_SECONDS)) { display_time(); }
+            }
+
+            // Seconds decrement
+            if (!(PINB & DEC_SECONDS)) {
+                seconds = (seconds == 0) ? 59 : seconds - 1;
+                while (!(PINB & DEC_SECONDS)) { display_time(); }
+            }
+
+            display_time();  // Continuously update the display
+        }
+    }
+}
+
+// Function to enable interrupts
+// Function to enable interrupts
+void interrupts() {
+    MCUCR |= (1 << ISC01);  // INT0: Falling edge for RESET
+    MCUCR |= (1 << ISC11) | (1 << ISC10);  // INT1: Rising edge for PAUSE
+    MCUCSR &= ~(1 << ISC2);  // INT2: Falling edge for RESUME
+    GICR |= (1 << INT0) | (1 << INT1) | (1 << INT2);  // Enable external interrupts
+}
+
+
+// Function to set timer1 in CTC mode
+void timer1_ctc() {
+    OCR1A = 15625;  // Compare value for 1 second (16MHz/1024)
+    TIMSK |= (1 << OCIE1A);  // Enable Timer1 Compare A Interrupt
+    TCCR1A = (1 << FOC1A);  // Non-PWM mode
+    TCCR1B = (1 << WGM12) | (1 << CS12) | (1 << CS10);  // CTC mode, prescaler 1024
+}
+
+// Function to initialize pins
+void initillization_pins() {
+    // Configure Input Pins
+    DDRD &= ~((1 << PD2) | (1 << PD3)); // PD2, PD3 as input
+    DDRB = 0x00; // PORTB as input
+    PORTB = 0xFF; // Enable pull-ups on PORTB
+
+    // Configure Output Pins
+    DDRD |= (1 << PD0) | (1 << PD4) | (1 << PD5); // PD0 (Buzzer), PD4 (blueLED), PD5 (green LED)
+    DDRC |= 0x0F; // PC0-PC3 as output for 7447 BCD to 7-segment decoder
+    PORTC &= 0xF0; // Initialize PORTC to zero
+    DDRA |= 0x3F; // PORTA as output for 7-segment enable
+
+    // Enable normal increment mode (blue LED on)
+    PORTD |= (1 << PD4);
+    PORTD &= ~(1 << PD5); // Turn off green LED
+}
+
+// Function to display time on 7-segment display
+void display_digit(unsigned char digit, unsigned char number) {
+    // Turn off all digit positions (PORTA controls which digit is active)
+    PORTA = (PORTA & 0xC0) | (1 << number);
+
+    // Set the 7-segment data (by lower 4 bits at PORTC)
+    PORTC = (PORTC & 0xF0) | (digit & 0x0F);
+}
+
+void display_time(void) {
+    // Display seconds
+    display_digit(seconds % 10, 5); // First place of seconds
+    _delay_ms(5);
+    display_digit(seconds / 10, 4);  // Second place of seconds
+    _delay_ms(5);
+
+    // Display minutes
+    display_digit(minutes % 10, 3);  // First place of minutes
+    _delay_ms(5);
+    display_digit(minutes / 10, 2);  // Second place of minutes
+    _delay_ms(5);
+
+    // Display hours
+    display_digit(hours % 10, 1);  // First place of hours
+    _delay_ms(5);
+    display_digit(hours / 10, 0);  // Second place of hours
+    _delay_ms(5);
+}
+
+// Additional functions to handle mode toggling and adjustments would be required here
+// This would include setting up buttons for incrementing and decrementing hours, minutes, and seconds.
