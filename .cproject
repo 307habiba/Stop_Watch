@@ -140,12 +140,21 @@ int main() {
 }
 
 // Function to enable interrupts
-// Function to enable interrupts
 void interrupts() {
-    MCUCR |= (1 << ISC01);  // INT0: Falling edge for RESET
-    MCUCR |= (1 << ISC11) | (1 << ISC10);  // INT1: Rising edge for PAUSE
-    MCUCSR &= ~(1 << ISC2);  // INT2: Falling edge for RESUME
-    GICR |= (1 << INT0) | (1 << INT1) | (1 << INT2);  // Enable external interrupts
+    // INT0: Falling edge, internal pull-up enabled
+    MCUCR |= (1 << ISC01);       // Set ISC01, clear ISC00 for falling edge
+    PORTD |= (1 << PD2);         // Enable internal pull-up on PD2 (INT0 pin)
+
+    // INT1: Rising edge, external pull-up
+    MCUCR |= (1 << ISC11) | (1 << ISC10); // Set ISC11 and ISC10 for rising edge
+    // No internal pull-up for INT1 (PD3), external pull-up is assumed
+
+    // INT2: Falling edge, internal pull-up enabled
+    MCUCSR &= ~(1 << ISC2);      // Clear ISC2 for falling edge
+    PORTB |= (1 << PB2);         // Enable internal pull-up on PB2 (INT2 pin)
+
+    // Enable external interrupts for INT0, INT1, and INT2
+    GICR |= (1 << INT0) | (1 << INT1) | (1 << INT2);
 }
 
 
